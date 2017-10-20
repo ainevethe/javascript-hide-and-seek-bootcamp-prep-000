@@ -33,5 +33,3 @@ let b = []
   a = next.shift()
 }
 
-
-}
