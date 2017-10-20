@@ -17,18 +17,6 @@ function increaseRankBy(n) {
 
 function deepestChild(array, stuff) {
 
-let a = array
-let b = []
-
-  while (a)
-    if (stuff(a)) {
-      return a
-    }
-
-    if (Array.isArray(a)) {
-      for (let i = 0; i < current.length; i++) {
-        nest.push(current[i])
-      }
-    }
-  a = nest.shift()
+var deepest = document.getElementById('grand-node').querySelectorAll('div')
+  return deepest(deepest.length-1)
 }
