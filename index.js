@@ -33,5 +33,5 @@ let b = []
   a = next.shift()
 }
 
-return null
+
 }
