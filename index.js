@@ -17,7 +17,7 @@ function increaseRankBy(n) {
 
 function deepestChild(array, stuff) {
 
-let a = array 
+let a = array
 let b = []
 
   while (a)
@@ -33,5 +33,5 @@ let b = []
   a = next.shift()
 }
 
-return null 
+return null
 }
