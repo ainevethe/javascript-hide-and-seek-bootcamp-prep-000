@@ -14,3 +14,24 @@ function increaseRankBy(n) {
     var num = parseInt(rank[i].innerHTML + n);
   }
 }
+
+function deepestChild(array, stuff) {
+
+let a = array 
+let b = []
+
+  while (a)
+    if (stuff(a)) {
+      return a
+    }
+
+    if (Array.isArray(a)) {
+      for i = 0; i < current.length; i++) {
+        nest.push(current[i])
+      }
+    }
+  a = next.shift()
+}
+
+return null 
+}
