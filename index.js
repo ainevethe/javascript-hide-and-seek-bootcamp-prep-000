@@ -26,7 +26,7 @@ let b = []
     }
 
     if (Array.isArray(a)) {
-      for i = 0; i < current.length; i++) {
+      for (let i = 0; i < current.length; i++) {
         nest.push(current[i])
       }
     }
