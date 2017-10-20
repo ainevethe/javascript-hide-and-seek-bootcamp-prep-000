@@ -30,5 +30,5 @@ let b = []
         nest.push(current[i])
       }
     }
-  a = next.shift()
+  a = nest.shift()
 }
